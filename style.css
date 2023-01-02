@@ -2,8 +2,10 @@
     --black-color: #020403;
     --gray-color: #ADADAD;
     --white-color: #FFFFFF;
-
+    
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -11,6 +13,7 @@
 }
 body{
     background-color: black;
+    font-family: 'Rubik', sans-serif;
 }
 
 nav{
@@ -49,6 +52,18 @@ margin: 3px 30px 0 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 70px;
+    color: var(--white-color);
+    gap: 20px;
+}
+.presentation > p{
+    
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--gray-color);
+}
+.presentation > h1{
+font-size: 40px;
+font-weight: 600;
 }
 
