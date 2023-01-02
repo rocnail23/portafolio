@@ -126,9 +126,11 @@ text-align: center;
     align-content: center;
     margin-left: 5px;
     width: 80%;
+    padding: 10px; 
 }
 .year{
 width: 50%;
+
 }
 .years > p{
 width: 50%;
@@ -136,7 +138,9 @@ width: 50%;
 
 .bar{
     border-top: 1px solid var(--gray-color);
-   padding: 10px; 
-  
+  }
+
+.expertise > h2 {
+    margin-bottom: 25px;
 }
 
