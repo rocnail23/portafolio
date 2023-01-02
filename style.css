@@ -2,7 +2,7 @@
     --black-color: #020403;
     --gray-color: #ADADAD;
     --white-color: #FFFFFF;
-    
+    font-size: 16px
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
 
@@ -14,6 +14,7 @@
 body{
     background-color: black;
     font-family: 'Rubik', sans-serif;
+    color: var(--white-color);
 }
 
 nav{
@@ -65,5 +66,37 @@ margin: 3px 30px 0 0;
 .presentation > h1{
 font-size: 40px;
 font-weight: 600;
+text-align: center;
+}
+.social-webs{
+    display: flex;
+    gap: 30px;
+}
+.about-me{
+    margin: 30px 10px;
+    text-align: center;
+    }
+.about-me > h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.about-me > p{
+    margin-top: 15px;
+    color: var(--gray-color);
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.skill-icons{
+    background-color: rgba(28, 25, 25, 0.939) ;
+    border-radius: 50%;
+    padding: 10px;
+    
 }
 
