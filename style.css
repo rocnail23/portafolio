@@ -37,11 +37,17 @@ nav{
     
     
 }
+.container-add{
+    transform: scaleX(100%);
+}
 .cont-menu{
     height: 100%;
 }
 #btn-menu{
     display: none ;
+}
+.sub-section li{
+    list-style: none;
 }
 
 #btn-menu:checked ~ .container-menu{
